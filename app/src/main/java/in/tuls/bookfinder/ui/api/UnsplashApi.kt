@@ -14,6 +14,6 @@ interface UnsplashApi {
         @Query("q") query: String,
         @Query("startIndex") startIndex: Int,
         @Query("maxResults") maxResults: Int
-    )
+    ) : UnsplashResponse
 
 }
