@@ -33,9 +33,14 @@ class UnsplashPhotoAdapter :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(book: UnsplashPhoto) {
+
+            val imageLink = book.volumeInfo.imageLinks?.let {
+                it.thumbnail?: R.drawable.ic_error
+            }
+
             binding.apply {
                 Glide.with(itemView)
-                    .load(book.volumeInfo.imageLinks.thumbnail) // TODO: handle when thumbnail can be null
+                    .load(imageLink)
                     .transition(DrawableTransitionOptions.withCrossFade())
                     .error(R.drawable.ic_error)
                     .into(imageView)

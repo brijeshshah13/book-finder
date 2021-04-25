@@ -11,16 +11,16 @@ data class UnsplashPhoto(
 
     @Parcelize
     data class UnsplashVolumeInfo(
-        val authors: Array<String>,
+        val authors: Array<String>?,
         val description: String,
-        val imageLinks: UnsplashImageLinks,
+        val imageLinks: UnsplashImageLinks?,
         val previewLink: String
     ) : Parcelable {
 
         @Parcelize
         data class UnsplashImageLinks(
             val smallThumbnail: String,
-            val thumbnail: String
+            val thumbnail: String?
         ) : Parcelable
 
     }
