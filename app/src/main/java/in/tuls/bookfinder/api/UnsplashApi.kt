@@ -1,4 +1,4 @@
-package `in`.tuls.bookfinder.ui.api
+package `in`.tuls.bookfinder.api
 
 import retrofit2.http.GET
 import retrofit2.http.Query

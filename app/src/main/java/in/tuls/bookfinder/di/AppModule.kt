@@ -1,6 +1,6 @@
 package `in`.tuls.bookfinder.di
 
-import `in`.tuls.bookfinder.ui.api.UnsplashApi
+import `in`.tuls.bookfinder.api.UnsplashApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

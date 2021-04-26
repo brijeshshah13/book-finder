@@ -1,6 +1,6 @@
 package `in`.tuls.bookfinder.ui.gallery
 
-import `in`.tuls.bookfinder.ui.data.UnsplashRepository
+import `in`.tuls.bookfinder.data.UnsplashRepository
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

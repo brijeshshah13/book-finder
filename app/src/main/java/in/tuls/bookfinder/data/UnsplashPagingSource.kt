@@ -1,6 +1,6 @@
-package `in`.tuls.bookfinder.ui.data
+package `in`.tuls.bookfinder.data
 
-import `in`.tuls.bookfinder.ui.api.UnsplashApi
+import `in`.tuls.bookfinder.api.UnsplashApi
 import androidx.paging.PagingSource
 import retrofit2.HttpException
 import java.io.IOException

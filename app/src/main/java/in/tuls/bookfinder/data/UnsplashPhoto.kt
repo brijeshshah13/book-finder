@@ -1,4 +1,4 @@
-package `in`.tuls.bookfinder.ui.data
+package `in`.tuls.bookfinder.data
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
